@@ -1,0 +1,42 @@
+{
+  "homepage": "https://github.com/vegansk/nimfp",
+  "versions": [
+    {
+      "nimble": {
+        "author": "Anatoly Galiulin <galiulin.anatoly@gmail.com>",
+        "backend": "c",
+        "binDir": ".",
+        "description": "Nim functional programming library",
+        "license": "MIT",
+        "requires": [
+          {
+            "name": "nim",
+            "range": ">= 0.19.0"
+          },
+          {
+            "name": "nimboost",
+            "range": ">= 0.5.5"
+          },
+          {
+            "name": "classy",
+            "range": ">= 0.0.3"
+          }
+        ],
+        "specialVersion": "0.4.5",
+        "srcDir": "src"
+      },
+      "source": {
+        "url": "https://github.com/vegansk/nimfp",
+        "rev": "17131f3f86c3640efd0a2fbc1284cd76b2e6820d",
+        "date": "2019-03-25T16:35:43+07:00",
+        "path": "/nix/store/naip21xrwgds8jdfcy9wianfz2gc84a4-nimfp",
+        "sha256": "1anjn6ly6vhmv823bd78272w83rwm44ys26cjn83pwg0rzz4pa4w",
+        "fetchSubmodules": true,
+        "deepClone": false,
+        "leaveDotGit": false,
+        "method": "git"
+      },
+      "version": "HEAD"
+    }
+  ]
+}

@@ -778,6 +778,7 @@
   "nimfinlib" = ./nimFinLib.json;
   "nimflux" = ./nimflux.json;
   "nimfm" = ./nimfm.json;
+  "nimfp" = ./nimfp.json;
   "nimfuzz" = ./nimfuzz.json;
   "nimfuzzy" = ./nimfuzzy.json;
   "nimga" = ./nimga.json;
