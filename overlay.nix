@@ -151,7 +151,7 @@ let
             };
         in nixpkgs.buildPackages.runCommand "package-updater" {
           nativeBuildInputs =
-            [ nixpkgs.buildPackages.buildPackages.nim nixpkgs.makeWrapper ];
+            [ nixpkgs.buildPackages.buildPackages.nim nixpkgs.makeWrapper nixpkgs.gcc ];
           nimFlags = [ "--path:${nimbleSrc}/src" ];
         } ''
           export HOME=$NIX_BUILD_TOP
